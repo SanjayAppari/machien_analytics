@@ -1,0 +1,28 @@
+
+.footer{
+    background: rgba(255, 166, 0, 0.974);
+    color:white;
+}
+    .links ul {list-style-type: none;}
+    .links  li a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+
+    .about-company i{font-size: 25px;}
+    .about-company  a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#ee4ef3}
+      }
+     
+    .location i{font-size: 18px;}
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+    
+

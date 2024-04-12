@@ -1,0 +1,185 @@
+.daily_analysis{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.daily_analysis .daily_analysis_1{
+    position: relative;
+    height: 40px;
+    background-color: #ffb805;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.daily_analysis .daily_analysis_1 .myBtn{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 0 10px;
+    border: 0;
+    background-color: white;
+}
+
+.daily_analysis_2{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.daily_analysis_2 .daily_left{
+    position: relative;
+    width: 88%;
+    height: 100%;
+}
+
+.daily_analysis_2 .daily_left .daily_left_top{
+    position: relative;
+    padding-left: 10px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 18px;
+}
+
+.daily_analysis_2 .daily_left .daily_left_bottom{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top:0;
+    padding-bottom: 15px;
+    flex-direction: column;
+    padding-right: 0;
+}
+
+
+
+.daily_analysis_2 .daily_left .daily_left_bottom .daily_graph_container{
+    position:relative;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    overflow: auto;
+}
+
+
+.daily_analysis_2 .daily_left .daily_left_bottom .daily_graph_container .daily_chart{
+    padding: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 10px;
+}
+
+.daily_analysis_2 .daily_right{
+    position: relative;
+    width: 19%;
+    height: 100%;
+    display: flex;
+    padding-top:17px;
+    flex-direction: column;
+    align-items: start;
+    padding-left:10px;
+    gap: 20px;
+}
+
+.daily_left_top .daily_card{
+    position: relative;
+    width: 19%;
+    height: 120px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.daily_right .daily_card{
+    position: relative;
+    width: 93%;
+    height: 120px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.daily_date{
+    background-color: transparent;
+    position: relative;
+    height: 100%;
+    color: white;
+    width: 150px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.daily_date input{
+    background-color:transparent;
+    border: 0;
+}
+
+.daily_card .daily_card_top{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    border-radius: 15px 15px 0 0;
+}
+
+.daily_card .daily_card_top .daily_card_top_1{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    border-radius: 15px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.daily_card .daily_card_top .daily_card_top_2{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    border-radius:  0 15px 0 0;
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.daily_card .daily_card_bottom{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    border-radius:0 0 15px 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.daily_card:hover{
+    border: 1px solid #ffb805;
+    box-shadow: 0 0 10px #ffb805;
+}

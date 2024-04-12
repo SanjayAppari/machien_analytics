@@ -1,0 +1,12 @@
+*{
+  font-family: "Quicksand";
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background-color: rgb(255, 184, 5);
+}

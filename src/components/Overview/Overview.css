@@ -1,0 +1,272 @@
+.main_overview{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main_overview .overview_heading{
+    background-color: #ffb805;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.main_overview .overview_heading .overview_date{
+    background-color: transparent;
+    position: relative;
+    height: 100%;
+    color: white;
+    width: 150px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.main_overview .overview_heading .overview_date input{
+    background-color:transparent;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+}
+
+.overview{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.overview .overview_1{
+    position: relative;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.overview .overview_1 .overview_1_1{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.overview .overview_1 .overview_1_1 .overview_card{
+    position: relative;
+    width: 23%;
+    height: 90%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overview .overview_1 .overview_1_1 .overview_card:hover{
+    border: 1px solid rgb(255, 184, 5);
+    box-shadow: 0 0 4px rgb(255, 184, 5);   
+}
+
+.overview .overview_1 .overview_1_1 .overview_card .overview_card_1{
+    position: relative;
+    height: 70%;
+    border-radius:10px 0px 0 10px;
+    width: 100%;
+    padding: 15px 15px 0px 15px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview .overview_1 .overview_1_1 .overview_card .overview_card_2{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    padding-left: 15px;
+    font-weight: 600;
+    display: flex;
+}
+
+.overview .overview_1 .overview_1_1 .overview_card  .overview_card_1 .overview_card_img{
+    position: relative;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: rgb(255, 184, 5);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    font-size: 25px;
+}
+
+.overview .overview_1 .overview_1_2{
+    position: relative;
+    width: calc(100% - 30px);
+    border: 1px solid #e4e1e1;
+    border-radius: 15px;
+    margin: 0 10px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+
+.overview .overview_2{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 18px;
+    padding-right: 10px;
+    gap: 20px;
+}
+
+.overview .overview_2 .overview_2_1{
+    position: relative;
+    width: 95%;
+    height: 30%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.overview .overview_2 .overview_2_1:hover{
+    border: 1px solid #ffb805;
+    box-shadow: 0 0 5px #ffb805;
+}
+
+.overview .overview_2 .overview_2_1 .break_down_1{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    border-radius:15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.overview .overview_2 .overview_2_1 .break_down_2{
+    position: relative;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overview .overview_2 .overview_2_1 .break_down_2 .break_down_count{
+    margin-top:-10px;
+    font-weight: 600;
+}
+
+.overview .overview_2 .overview_2_1 .break_down_3{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    border-radius:0 0 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+
+.overview .overview_2 .overview_2_2{
+    position: relative;
+    width: 95%;
+    height: 65%;
+    border-radius: 15px;
+    border: 1px solid #ccc;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overview .overview_2 .overview_2_2:hover{
+    border: 1px solid #ffb805;
+    box-shadow: 0 0 5px #ffb805;   
+}
+
+.overview .overview_2 .overview_2_2 .health_score_1{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.overview .overview_2 .overview_2_2 .health_score_1 i{
+    color: red;
+}
+
+.overview .overview_2 .overview_2_2 .health_score_2{
+    position: relative;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overview .overview_2 .overview_2_2 .health_score_3{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border-radius: 0 0 15px 15px;
+}
+
+.overview .overview_2 .overview_2_2 .health_score_3 .score_3_1{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.overview .overview_2 .overview_2_2 .health_score_3 .score_3_1 .score_3_1_2{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.overview .overview_2 .overview_2_2 .health_score_3 .score_3_1 .score_3_1_1{
+    padding-left:15px
+}
+

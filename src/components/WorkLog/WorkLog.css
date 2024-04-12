@@ -1,0 +1,73 @@
+.workLog{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.workLog .workLog_tab{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+}
+.workLog .workLog_bottom{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 40px);
+    flex-direction: column;
+    padding: 20px;
+}
+
+.workLog .workLog_bottom .worklog_heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.workLog .workLog_bottom .worklog_info{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.workLog .workLog_bottom .worklog_form_wrapper{
+    position: relative;
+    margin-top: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px;
+    justify-content:center;
+    align-items: center;
+    overflow: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.workLog .workLog_bottom .worklog_form_wrapper .worklog_form{
+    position: relative;
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: self-start;
+    justify-content: center;
+}
+
+.worklog_input_half{
+    position: relative;
+    width: 50%;
+    height: fit-content;
+    padding: 0 10px;
+}
+
+.myBtn{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}

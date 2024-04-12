@@ -1,0 +1,89 @@
+.profile{
+    width: 100%;
+}
+
+.profile .profile_details_bg{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+}
+
+.profile .profile_details_bg .profile_overlay{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(53, 48, 48, 0.714);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .profile_details_bg .profile_overlay .actual_profile{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.profile .show_machines{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+
+.profile .show_machines .machines_container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.profile .show_machines .machines_container .machine_card{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile .show_machines .machines_container .machine_card:hover{
+    box-shadow: 0 0 5px orange;
+    border: 1px solid orange;
+}
+
+.profile .show_machines .machines_container .machine_card .machine_card_1{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    background-color: rgb(231, 216, 137);
+    border-radius: 10px 10px 0 0px;
+}
+
+.profile .show_machines .machines_container .machine_card .machine_card_2{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .show_machines .machines_container .machine_card .machine_card_1 img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius:10px 10px 0 0 ; 
+}

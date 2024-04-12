@@ -1,0 +1,77 @@
+.sidebar{
+    position: relative;
+    height: 100%;
+    width: 18%;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar .sidebar-img{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .sidebar-img .sidebar-imagecard{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    background-color: rgb(231, 216, 137);
+    border: 1px solid orange;
+    box-shadow: 0 0 10px orange;
+}
+.sidebar .sidebar-img .sidebar-imagecard img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius:50%;
+}
+
+.sidebar .tabs-wrapper{
+    position: relative;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .tabs-wrapper .sidebar-tab{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.sidebar .tabs-wrapper .sidebar-tab:hover{
+    background-color:#ccc;
+}
+
+.sidebar .tabs-wrapper .sidebar-tab .sidebar-tab-icon{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.sidebar .tabs-wrapper .sidebar-tab .sidebar-tab-title{
+    position: relative;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Quicksand";
+}

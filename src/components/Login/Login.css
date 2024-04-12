@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@578&family=Merriweather:wght@300;400&family=Noto+Sans+TC:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+
+.login{
+    height: 100vh;
+    width: 100%;
+    background-image:url('../../assets/loginBg.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+.login .loginMain{
+    position: relative;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.814) ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Noto Sans TC", sans-serif;
+    gap: 20px;
+}
+
+.login .loginMain .loginForm {
+    background-color: white;
+    border: 1px solid rgb(199, 185, 185);
+    border-radius: 5px;
+    width: 50vh;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login .loginMain .loginForm .loginName{
+    font-size: 25px;
+    font-family: "Quicksand";
+    font-weight: 700;
+}
+.login .loginMain .loginForm .loginSubName{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 184, 5);
+}
+
+.login .loginMain .loginForm .loginSubText {
+    font-size:12px;
+
+}
+
+.login .loginMain .loginForm .actualForm {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-self: center;
+    align-items: center;
+}
+
+.login .loginMain .loginForm .actualForm .inputLink{
+    font-size:13px;
+}
+
+.login .loginMain .loginForm .actualForm .inputField{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.login .loginMain .loginForm .actualForm .inputField .inputLabel{
+    position:relative;
+    /* border: 1px solid red; */
+    width: 40%;
+    font-family: "Quicksand";
+    font-weight: 700;
+}
+.login .loginMain .loginForm .actualForm .inputField .inputTag{
+    position:relative;
+    width: 60%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.login .loginMain .loginForm .actualForm .inputField .inputTag input{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    border: 1px solid rgb(199, 185, 185);
+    outline: 0;
+    border-radius:5px;
+    padding-left: 5px;
+    font-size:15px; 
+}
+
+.login .loginMain .loginForm .actualForm .loginBtn{
+    width: 20%;
+    margin-top: 10px;
+    background-color: rgb(255, 184, 5);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 13px;
+    color: white;
+}
